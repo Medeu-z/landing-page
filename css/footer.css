@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+}
+.footer-text{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.footer-year{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+@media screen and (max-width: 480px){
+    .footer-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+
