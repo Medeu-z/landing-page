@@ -93,7 +93,11 @@
 .phone-number img{
     margin-right: 21px;
 }
-.phone-number:hover{
+.phone-number>a{
+    color: white;
+    text-decoration: none;
+}
+.phone-number>a:hover{
     color: var( --color-orange);
 }
 @media screen and (max-width: 480px){
